@@ -1,12 +1,24 @@
 # jupyterpidaq_menu
-
+<!-- Not yet implemented
 [![Github Actions Status](https://github.com/JupyterPhysSciLab/JupyterPiDAQ_Menu.git/workflows/Build/badge.svg)](https://github.com/JupyterPhysSciLab/JupyterPiDAQ_Menu.git/actions/workflows/build.yml)
+-->
+Convenience menu for JupyterPiDAQ that runs in Jupyter Lab and Notebook >=7. 
+This menu provides code snippets that will activate JupyterPiDAQ functions. 
+They will not work if JupyterPiDAQ has not been imported into the currently 
+running notebook kernel via `from jupyterpidaq.DAQinstance import *`.
 
-Convenience menu for JupyterPiDAQ that runs in Jupyter Lab and Notebook >=7.
+Menu items:
+* Insert new run after selected cell
+* Select data to show in a table...
+* Calculate a new column...
+* Insert new plot after selected cell
+* Insert new fit after selected cell
 
 ## Requirements
 
 - JupyterLab >= 4.0.0
+- jupyterpidaq >=0.8.1
+- jupyter-pandas-gui >=0.9.0
 
 ## Install
 
@@ -72,7 +84,7 @@ In development mode, you will also need to remove the symlink created by `jupyte
 command. To find its location, you can run `jupyter labextension list` to figure out where the `labextensions`
 folder is located. Then you can remove the symlink named `jupyterpidaq-menu` within that folder.
 
-### Testing the extension
+### Testing the extension (not complete)
 
 #### Frontend tests
 
