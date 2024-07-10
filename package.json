@@ -1,6 +1,6 @@
 {
     "name": "jupyterpidaq-menu",
-    "version": "0.1.0-rc0",
+    "version": "0.1.0",
     "description": "Convenience menu for JupyterPiDAQ that runs in Jupyter Lab and Notebook >=7.",
     "keywords": [
         "jupyter",
